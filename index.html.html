@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>라로슈포제 콘텐츠 캘린더 인포그래픽</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+        .brand-blue { color: #0072CE; }
+        .bg-brand-blue { background-color: #0072CE; }
+        .border-brand-blue { border-color: #0072CE; }
+        .infographic-card {
+            transition: all 0.3s ease;
+        }
+        .infographic-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 114, 206, 0.1), 0 10px 10px -5px rgba(0, 114, 206, 0.04);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-gray-800 p-4 md:p-10">
+
+    <div class="max-w-6xl mx-auto bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100">
+        
+        <!-- Header Section -->
+        <header class="bg-brand-blue text-white p-10 text-center relative overflow-hidden">
+            <div class="absolute top-0 left-0 w-full h-full opacity-10" style="background-image: radial-gradient(circle, #ffffff 2px, transparent 2px); background-size: 20px 20px;"></div>
+            <div class="relative z-10">
+                <div class="inline-block bg-white text-blue-600 px-4 py-1 rounded-full text-sm font-bold tracking-widest mb-4">
+                    LA ROCHE-POSAY
+                </div>
+                <h1 class="text-3xl md:text-5xl font-extrabold mb-4">맞춤형 콘텐츠 캘린더 전략</h1>
+                <p class="text-lg md:text-xl font-light opacity-90">"민감성 피부의 삶을 바꾸는 스킨케어" 타겟 페르소나별 커뮤니케이션 맵</p>
+            </div>
+        </header>
+
+        <!-- Main Content Grid -->
+        <div class="p-8 md:p-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 relative">
+                
+                <!-- Central Line (Desktop only) -->
+                <div class="hidden md:block absolute left-1/2 top-0 bottom-0 w-0.5 bg-blue-100 transform -translate-x-1/2"></div>
+
+                <!-- Item 1 -->
+                <div class="infographic-card bg-white rounded-2xl p-6 border-2 border-blue-50 relative z-10">
+                    <div class="flex justify-between items-center mb-4 border-b border-gray-100 pb-4">
+                        <span class="bg-blue-100 text-blue-800 px-4 py-1.5 rounded-full text-sm font-bold flex items-center gap-2">
+                            <i class="far fa-calendar-check"></i> 5/20 (수) 19:00
+                        </span>
+                        <span class="text-gray-500 font-medium text-sm flex items-center gap-2">
+                            <i class="fas fa-user-md brand-blue"></i> 메디컬 큐레이터족
+                        </span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-gray-800">전문성 강조 및 구매 전환 유도</h3>
+                    <p class="text-sm text-gray-500 mb-4">(시카플라스트 밤 B5+ 효능 강조)</p>
+                    <div class="bg-slate-50 p-4 rounded-xl mb-5 border-l-4 border-brand-blue">
+                        <p class="text-gray-700 italic font-medium">"무너진 피부 장벽, 덮지 말고 근본부터 다시 세우세요"</p>
+                    </div>
+                    <div class="grid grid-cols-2 gap-3 text-sm text-gray-600">
+                        <div class="bg-blue-50 p-2 rounded flex items-center gap-2"><i class="fas fa-video brand-blue w-4"></i> 숏폼 영상</div>
+                        <div class="bg-blue-50 p-2 rounded flex items-center gap-2"><i class="fab fa-youtube brand-blue w-4"></i> 릴스 / 숏츠</div>
+                        <div class="bg-blue-50 p-2 rounded flex items-center gap-2 col-span-2"><i class="fas fa-coins text-yellow-500 w-4"></i> 예상 예산: 500만 원</div>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="infographic-card bg-white rounded-2xl p-6 border-2 border-blue-50 relative z-10 md:mt-16">
+                    <div class="flex justify-between items-center mb-4 border-b border-gray-100 pb-4">
+                        <span class="bg-blue-100 text-blue-800 px-4 py-1.5 rounded-full text-sm font-bold flex items-center gap-2">
+                            <i class="far fa-calendar-check"></i> 5/22 (금) 21:00
+                        </span>
+                        <span class="text-gray-500 font-medium text-sm flex items-center gap-2">
+                            <i class="fas fa-life-ring brand-blue"></i> S.O.S 구조요청족
+                        </span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-gray-800">브랜드 공감 및 인게이지먼트 향상</h3>
+                    <p class="text-sm text-gray-500 mb-4">(에빠끌라 라인 진정 케어 시도 유도)</p>
+                    <div class="bg-slate-50 p-4 rounded-xl mb-5 border-l-4 border-brand-blue">
+                        <p class="text-gray-700 italic font-medium">"예민해진 피부 때문에 오늘 하루의 기분까지 포기하지 않도록"</p>
+                    </div>
+                    <div class="grid grid-cols-2 gap-3 text-sm text-gray-600">
+                        <div class="bg-blue-50 p-2 rounded flex items-center gap-2"><i class="far fa-images brand-blue w-4"></i> 카드뉴스</div>
+                        <div class="bg-blue-50 p-2 rounded flex items-center gap-2"><i class="fab fa-instagram brand-blue w-4"></i> 인스타 피드</div>
+                        <div class="bg-blue-50 p-2 rounded flex items-center gap-2 col-span-2"><i class="fas fa-coins text-yellow-500 w-4"></i> 예상 예산: 200만 원</div>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="infographic-card bg-white rounded-2xl p-6 border-2 border-blue-50 relative z-10">
+                    <div class="flex justify-between items-center mb-4 border-b border-gray-100 pb-4">
+                        <span class="bg-blue-100 text-blue-800 px-4 py-1.5 rounded-full text-sm font-bold flex items-center gap-2">
+                            <i class="far fa-calendar-check"></i> 5/24 (일) 10:00
+                        </span>
+                        <span class="text-gray-500 font-medium text-sm flex items-center gap-2">
+                            <i class="fas fa-child brand-blue"></i> 스마트 맘
+                        </span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-gray-800">성분 신뢰도 및 라인업 인지도 상승</h3>
+                    <p class="text-sm text-gray-500 mb-4">(안심 브랜드 이미지 구축 - 리피카 밤)</p>
+                    <div class="bg-slate-50 p-4 rounded-xl mb-5 border-l-4 border-brand-blue">
+                        <p class="text-gray-700 italic font-medium">"피부과를 나선 후에도, 전문가의 케어는 계속되어야 하니까"</p>
+                    </div>
+                    <div class="grid grid-cols-2 gap-3 text-sm text-gray-600">
+                        <div class="bg-blue-50 p-2 rounded flex items-center gap-2"><i class="fas fa-camera brand-blue w-4"></i> 제품/인물 사진</div>
+                        <div class="bg-blue-50 p-2 rounded flex items-center gap-2"><i class="fas fa-blog brand-blue w-4"></i> 네이버 블로그</div>
+                        <div class="bg-blue-50 p-2 rounded flex items-center gap-2 col-span-2"><i class="fas fa-coins text-yellow-500 w-4"></i> 예상 예산: 150만 원</div>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="infographic-card bg-white rounded-2xl p-6 border-2 border-blue-50 relative z-10 md:mt-16">
+                    <div class="flex justify-between items-center mb-4 border-b border-gray-100 pb-4">
+                        <span class="bg-blue-100 text-blue-800 px-4 py-1.5 rounded-full text-sm font-bold flex items-center gap-2">
+                            <i class="far fa-calendar-check"></i> 5/26 (화) 12:00
+                        </span>
+                        <span class="text-gray-500 font-medium text-sm flex items-center gap-2">
+                            <i class="fas fa-shopping-bag brand-blue"></i> 합리적 경험주의자
+                        </span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-gray-800">공식몰 유입 및 정착 유도</h3>
+                    <p class="text-sm text-gray-500 mb-4">(샘플링 혜택 및 리뷰 적립금 제도)</p>
+                    <div class="bg-slate-50 p-4 rounded-xl mb-5 border-l-4 border-brand-blue">
+                        <p class="text-gray-700 italic font-medium">"화장품은 무조건 안전하게 공식몰에서! 신규회원 혜택"</p>
+                    </div>
+                    <div class="grid grid-cols-2 gap-3 text-sm text-gray-600">
+                        <div class="bg-blue-50 p-2 rounded flex items-center gap-2"><i class="fas fa-layer-group brand-blue w-4"></i> 카드뉴스 / 릴스</div>
+                        <div class="bg-blue-50 p-2 rounded flex items-center gap-2"><i class="fas fa-comment brand-blue w-4"></i> 카카오톡 / 스토리</div>
+                        <div class="bg-blue-50 p-2 rounded flex items-center gap-2 col-span-2"><i class="fas fa-coins text-yellow-500 w-4"></i> 예상 예산: 300만 원</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer / Tips -->
+        <div class="bg-blue-50 p-8 border-t border-blue-100">
+            <h4 class="text-blue-800 font-bold mb-3 flex items-center gap-2">
+                <i class="fas fa-lightbulb text-yellow-500"></i> 콘텐츠 기획 추가 팁
+            </h4>
+            <ul class="list-disc pl-5 text-gray-700 space-y-2 text-sm">
+                <li><strong class="font-bold">시각적 일관성:</strong> 화려함보다는 '순수하고 무해한(Clean)' 더마코스메틱 특유의 분위기를 시각적으로 연출하는 것이 좋습니다.</li>
+                <li><strong class="font-bold">행동 유도(CTA):</strong> 인스타그램 스토리나 카카오톡 메시지에는 "무료 샘플 키트 신청하기" 등의 명확한 링크를 연동하여 즉각적인 참여를 이끌어내세요.</li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>
